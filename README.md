@@ -16,4 +16,4 @@
 
 When you knit the report, R will only be able to find your image if you have placed it in the right place - RELATIVE to your .Rmd file. This is where good file management becomes extremely important.
 
-![Whit night](photo/tumblr_p0arfcTNVa1sgzhgyo1_500.png)
+![White night](photo/tumblr_p0arfcTNVa1sgzhgyo1_500.png)
