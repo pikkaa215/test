@@ -13,9 +13,17 @@ set.seed(12)
 random <- rlnorm(20, meanlog = 1, sdlog = 0.25)
 ```
 
-2. create a histogram of the distribution and the distribution on the log scale
+2. hisogram 
+
+(1) on the original data
 ```{r}
-hist(log(random))
+hist(random, main = 'Histogram on raw data')
 ```
 
-The mean is `r mean(random)` and the variance is `rvar(random)`.
+The mean is `r round(mean(random),2)` and the variance is `r round(var(random),2)`.
+
+(2) On the log-scale
+```{r}
+hist(log(random), main = "Histogram on log-scale")
+```
+
